@@ -1,2 +1,3 @@
 # landing-page
-Landing page practice
+
+Landing page practice. Mock page for a cat hat monthly subscription box.
