@@ -56,3 +56,52 @@ table {
 html {
     font-size: 62.5%;
 }
+
+body {
+    background-color: lightslategray;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    width: 60%;
+}
+
+nav ul {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    align-items: center;
+}
+
+nav ul li {
+    padding-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 50px;
+    padding-left: 100px;
+}
