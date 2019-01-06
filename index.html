@@ -14,49 +14,86 @@
         <header id="header">
         <div class="logo-container">
             <img src="images/catwalk.png" id="header-img">
-            <h1>Cat Hats Monthly</h1>
+            <a href="#home"><h1 id="title">Cat Hats Monthly</h1></a>
         </div>
         <nav id="nav-bar">
             <ul>
                 <li><a href="#features" class="nav-link">Features</a></li>
-                <li><a href="#video" class="nav-link">Video</a></li>
+                <li><a href="#videos" class="nav-link">Video</a></li>
                 <li><a href="#plans" class="nav-link">Plans</a></li>
                 <li><a href="#pictures" class="nav-link">Pictures</a></li>
             </ul>
         </nav>
     </header>
 </div>
-    <div class="content-container">
+    <div class="content-container" id="home">
         <section class="form">
             <h2>Learn how you could get a fresh box of cute cat hats each and every month!</h2>
-            <form action="https://www.freecodecamp.com/email-submit">
-                <input type="email" placeholder="Enter your email here." name="email" required>
-                <button type="submit">Learn More</button>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" placeholder="Enter your email here." name="email" required id="email">
+                <input type="submit" id="submit" value="Learn More" class="button">
+                <!-- <button type="submit" id="submit">Learn More</button> -->
             </form>
         </section>
         <section class="main">
-            <img src="images/tophat.jpg" alt="cat wearing a top hat and bow tie" class="dropshadow">
-        <p id="features">We all love our cats and want to make sure they always feel as special as they are! That's our goal at Cat Hats Monthly. That's why when you sign up we will send you a fresh box of goodies for your cat each and every month!</p>
+            <img src="images/tophat.jpg" alt="cat wearing a top hat and bow tie" class="dropshadow" id="features">
+        <p id="description">We all love our cats and want to make sure they always feel as special as they are! That's our goal at Cat Hats Monthly. That's why when you sign up we will send you a fresh box of goodies for your cat each and every month!</p>
         <p>Here are some of the things you can expect from your monthly box:</p>
         <div class="list">
             <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Cat Hats</h3><p>Four adorable hats for your cat to wear and look super cute in.</p></div></div>
             <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Toys!</h3><p>Two cat toys for your cat to play with. Each month's toys will be fun and unique!</p></div></div>
             <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Yummy treats</h3><p>A bag of grain-free and healthy cat treats.</p></div></div>
-            <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Extra surprise!</h3><p>And the part your cat will probably like most... it all comes in a cardboard box that has been sprayed with a catnip mist for them to play in.</p></div></div>
+            <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3 id="videos">Extra surprise!</h3><p>And the part your cat will probably like most... it all comes in a cardboard box that has been sprayed with a catnip mist for them to play in.</p></div></div>
         </div>
         </section>
-        <section id="video">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-gQXbKmVlmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-gQXbKmVlmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
         </section>
         <section id="plans">
-            <h3>Choose your plan!</h3>
+            <h3 class="headline">Choose your plan!</h3>
             <div class="plans">
-                <div class="box">test</div>
-                <div class="box">test</div>
-                <div class="box">test</div>
+                <div class="box">
+                    <div class="label">Monthly</div>
+                    <div class="plan-info">
+                        <p>Our monthly plan is perfect for someone who wants to try our membership out for the first time!</p>
+                        <ul>
+                            <li>Pay month to month. Cancel any time.</li>
+                            <li>Perfect for those who want to order every other month or want an extra box every once and a while.</li>
+                            <li>Gifting a month of Cat Hats Monthly is the perfect present for any cat or cat parent!</li>
+                        </ul>
+                        <input type="submit"  value="Sign Up" class="button">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="label">Quarterly</div>
+                    <div class="plan-info">
+                        <p>Our quarterly plan allows you to sign up for 3 months at a time at a discount. If you know your cats are going to love their new hats, this is a great pick!</p>
+                        <ul>
+                            <li>Save 10% compared to the monthly price.</li>
+                            <li>Great gift for a special cat lover in your life.</li>
+                            <li>Every quarter you'll get a free bonus gift for your cats!</li>
+                            <li>Each quarterly box will come with a coupon for 20% off of a single box for you to gift to a friend (or yourself).</li>
+                        </ul>
+                        <input type="submit"  value="Sign Up" class="button" id="pictures">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="label">Yearly</div>
+                    <div class="plan-info">
+                        <p>Sign up for a year at a time and get extra discounts and gifts! Keep those adorable cats coming month after month.</p>
+                        <ul>
+                            <li>Save 20% compared to the monthly price.</li>
+                            <li>Amazing gift for that extra special cat or cat lover in your life!</li>
+                            <li>Free gift with your box each month.</li>
+                            <li>Each year you'll get a coupon for a free box to send to a friend!</li>
+                        </ul>
+                        <input type="submit"  value="Sign Up" class="button">
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="pictures">
+        <section>
+            <h3 class="headline">Check out these happy customers!</h3>
             <div class="pic-container">
                 <img src="images/colorful.jpg">
                 <img src="images/green.jpg">
@@ -71,5 +108,7 @@
         </section>
     </div> <!--end of content container-->
     </div> <!--end of container-->
+    <!-- Testing script for freecodecamp. -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </body>
 </html>
