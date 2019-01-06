@@ -58,7 +58,7 @@ html {
 }
 
 body {
-    background-color: lightslategray;
+    background-color:#AAB2BD;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
 }
@@ -114,7 +114,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: lightslategray;
+    background-color: #AAB2BD
 }
 
 h2 {
@@ -146,7 +146,7 @@ input {
 
 button {
     width: 40%;
-    background-color: lightseagreen;
+    background-color: cadetblue;
     color: white;
     padding: 10px 5px;
     margin: 10px 30%;
@@ -155,7 +155,7 @@ button {
   }
   
 button:hover {
-    background-color: teal;
+    background-color: darkcyan;
   }
 
 .dropshadow {
@@ -202,4 +202,10 @@ button:hover {
     font-weight: 500;
     font-size: 2rem;
     margin-bottom: .5rem;
+    color: #5F634C;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
