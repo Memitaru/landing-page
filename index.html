@@ -6,27 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cat Hat Monthly</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Open+Sans|Roboto:400,500,600" rel="stylesheet">
 </head>
 <body>
     <div class="container">
     <div class="top">
-        <header>
+        <header id="header">
         <div class="logo-container">
-            <img src="images/catwalk.png">
+            <img src="images/catwalk.png" id="header-img">
             <h1>Cat Hats Monthly</h1>
         </div>
-        <nav>
+        <nav id="nav-bar">
             <ul>
-                <li><a href="#">Plans</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Sign Up</a></li>
+                <li><a href="#" class="nav-link">Plans</a></li>
+                <li><a href="#" class="nav-link">Testimonials</a></li>
+                <li><a href="#" class="nav-link">FAQs</a></li>
+                <li><a href="#" class="nav-link">Sign Up</a></li>
             </ul>
         </nav>
     </header>
 </div>
     <div class="content-container">
+        <section class="form">
+            <h2>Learn how you could get a fresh box of cute cat hats each and every month!</h2>
+            <form action="https://www.freecodecamp.com/email-submit">
+                <input type="email" placeholder="Enter your email here." name="email" required>
+                <button type="submit">Learn More</button>
+            </form>
+        </section>
+        <section class="main">
+            <img src="images/tophat.jpg" alt="cat wearing a top hat and bow tie" class="dropshadow">
+        <p>We all love our cats and want to make sure they always feel as special as they are! That's our goal at Cat Hats Monthly. That's why when you sign up we will send you a fresh box of goodies for your cat each and every month!</p>
+        <p>Here are some of the things you can expect from your monthly box:</p>
+        <div class="list">
+            <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Cat Hats</h3><p>Four adorable hats for your cat to wear and look super cute in.</p></div></div>
+            <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Toys!</h3><p>Two cat toys for your cat to play with. Each month's toys will be fun and unique!</p></div></div>
+            <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Yummy treats</h3><p>A bag of grain-free and healthy cat treats.</p></div></div>
+            <div class="list-item"><img src="images/catsit-50.png" alt="sitting cat"><div><h3>Extra surprise!</h3><p>And the part your cat will probably like most... it all comes in a cardboard box that has been sprayed with a catnip mist for them to play in.</p></div></div>
+        </div>
+        </section>
     </div> <!--end of content container-->
     </div> <!--end of container-->
 </body>
